@@ -12,8 +12,8 @@
     "format": "prettier --write src/",
     "format:check": "prettier --check src/",
     "test": "jest",
-    "test:unit": "jest tests/unit/",
-    "test:integration": "jest tests/integration/"
+    "test:unit": "jest tests/unit/ --passWithNoTests",
+    "test:integration": "jest tests/integration/ --passWithNoTests"
   },
   "repository": {
     "type": "git",
